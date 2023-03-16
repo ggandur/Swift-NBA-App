@@ -14,3 +14,7 @@ func testFunctionString() -> String {
 func testFunctionInt() -> Int {
     return (123)
 }
+
+func testFunctionFloat() -> Float {
+    return (1.23)
+}
