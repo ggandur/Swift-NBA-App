@@ -7,6 +7,10 @@
 
 import Foundation
 
-func testFunction() -> String {
+func testFunctionString() -> String {
     return ("Funcao teste")
+}
+
+func testFunctionNumber() -> Int {
+    return (123)
 }
