@@ -42,17 +42,23 @@ func getNbaPlayers(completion: @escaping ([PlayerType]?) -> Void) {
 
         guard let data = data else {
             print("Dados nao encontrados")
-            completion(nil)
+            DispatchQueue.main.async {
+                completion(nil)
+            }
             return
         }
 
         do {
             let decoder = JSONDecoder()
             let response = try decoder.decode(PlayersResponse.self, from: data)
-            completion(response.league.standard)
+            DispatchQueue.main.async {
+                completion(response.league.standard)
+            }
         } catch {
             print("Erro ao converter JSON: \(error)")
-            completion(nil)
+            DispatchQueue.main.async {
+                completion(nil)
+            }
         }
     }
 

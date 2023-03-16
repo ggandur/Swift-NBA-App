@@ -11,6 +11,9 @@
 		464AAA2B29C0A58B00FAB3DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464AAA2A29C0A58B00FAB3DE /* Assets.xcassets */; };
 		464AAA2F29C0A58B00FAB3DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464AAA2E29C0A58B00FAB3DE /* Preview Assets.xcassets */; };
 		464AAA3729C0B61200FAB3DE /* TestFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464AAA3629C0B61200FAB3DE /* TestFunction.swift */; };
+		468DBA6F29C3B620006A7414 /* teamNameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468DBA6E29C3B620006A7414 /* teamNameHelper.swift */; };
+		468DBA7129C3B685006A7414 /* downloadPlayerImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468DBA7029C3B685006A7414 /* downloadPlayerImage.swift */; };
+		468DBA7329C3B6B0006A7414 /* showAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468DBA7229C3B6B0006A7414 /* showAlert.swift */; };
 		46E0CB8429C0BE1000B58434 /* getNbaPlayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E0CB8329C0BE1000B58434 /* getNbaPlayers.swift */; };
 		46E0CB8629C144E400B58434 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464AAA2829C0A58A00FAB3DE /* ContentView.swift */; };
 /* End PBXBuildFile section */
@@ -23,6 +26,9 @@
 		464AAA2C29C0A58B00FAB3DE /* AcademyApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AcademyApp.entitlements; sourceTree = "<group>"; };
 		464AAA2E29C0A58B00FAB3DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		464AAA3629C0B61200FAB3DE /* TestFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFunction.swift; sourceTree = "<group>"; };
+		468DBA6E29C3B620006A7414 /* teamNameHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teamNameHelper.swift; sourceTree = "<group>"; };
+		468DBA7029C3B685006A7414 /* downloadPlayerImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = downloadPlayerImage.swift; sourceTree = "<group>"; };
+		468DBA7229C3B6B0006A7414 /* showAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showAlert.swift; sourceTree = "<group>"; };
 		46E0CB8329C0BE1000B58434 /* getNbaPlayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getNbaPlayers.swift; sourceTree = "<group>"; };
 		46E0CB8529C0D85D00B58434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				46E0CB8529C0D85D00B58434 /* Info.plist */,
+				468DBA6D29C3B603006A7414 /* Helpers */,
 				464AAA3529C0B5E900FAB3DE /* Functions */,
 				464AAA2629C0A58A00FAB3DE /* AcademyAppApp.swift */,
 				464AAA2829C0A58A00FAB3DE /* ContentView.swift */,
@@ -81,8 +88,18 @@
 			children = (
 				464AAA3629C0B61200FAB3DE /* TestFunction.swift */,
 				46E0CB8329C0BE1000B58434 /* getNbaPlayers.swift */,
+				468DBA7029C3B685006A7414 /* downloadPlayerImage.swift */,
+				468DBA7229C3B6B0006A7414 /* showAlert.swift */,
 			);
 			path = Functions;
+			sourceTree = "<group>";
+		};
+		468DBA6D29C3B603006A7414 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				468DBA6E29C3B620006A7414 /* teamNameHelper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +174,9 @@
 			files = (
 				464AAA3729C0B61200FAB3DE /* TestFunction.swift in Sources */,
 				464AAA2729C0A58A00FAB3DE /* AcademyAppApp.swift in Sources */,
+				468DBA7129C3B685006A7414 /* downloadPlayerImage.swift in Sources */,
+				468DBA7329C3B6B0006A7414 /* showAlert.swift in Sources */,
+				468DBA6F29C3B620006A7414 /* teamNameHelper.swift in Sources */,
 				46E0CB8629C144E400B58434 /* ContentView.swift in Sources */,
 				46E0CB8429C0BE1000B58434 /* getNbaPlayers.swift in Sources */,
 			);
